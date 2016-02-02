@@ -1,6 +1,7 @@
 import React from 'react';
 
 const VideoDetail = ({video}) => {
+  // AJAX spinner:
   if (!video) {
     return <div>Loading...</div>;
   }
