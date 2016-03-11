@@ -13,7 +13,6 @@ const VideoList = (props) => {
 
   return (
     <ul className="col-md-4 list-group">
-    {/* React recognizes an array of components and renders them */}
       {videoItems}
     </ul>
   );
